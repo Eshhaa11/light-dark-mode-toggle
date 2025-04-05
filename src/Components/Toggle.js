@@ -11,7 +11,9 @@ function Toggle () {
 
     return (
         <div className= {darkmode ? 'app dark' : 'app light'}>
-        
+        <button onClick={toggleTheme}>
+            
+        </button>
             <h1>GOOGLE</h1>
         </div>
     )
