@@ -6,9 +6,12 @@ function Toggle () {
 
     const toggleTheme = () => {
         setDarkMode(prevMode => !prevMode);
-    }
+    };
+
+
     return (
-        <div>
+        <div className= {darkmode ? 'app dark' : 'app light'}>
+        
             <h1>GOOGLE</h1>
         </div>
     )
