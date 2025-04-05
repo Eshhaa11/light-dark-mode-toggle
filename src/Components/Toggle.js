@@ -10,11 +10,12 @@ function Toggle () {
 
 
     return (
-        <div className= {darkmode ? 'app dark' : 'app light'}>
+        <div className={darkMode ? 'app dark' : 'app light'}>
+            
         <button onClick={toggleTheme}>
             Switch to {darkmode? 'Light' : 'Dark'} Mode
         </button>
-            <h1>GOOGLE</h1>
+            <h1>GOOGLE </h1>
         </div>
     )
 }
