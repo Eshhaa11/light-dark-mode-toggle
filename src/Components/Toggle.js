@@ -2,7 +2,11 @@ import { useState } from "react";
 import './Toggle.css'
 
 function Toggle () {
-    const [mode, setMode] = useState("false")
+    const [darkmode, setDarkMode] = useState("false")
+
+    const toggleTheme = () => {
+        setDarkMode(prevMode => !prevMode);
+    }
     return (
         <div>
             <h1>GOOGLE</h1>
