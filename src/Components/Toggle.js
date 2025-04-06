@@ -1,31 +1,26 @@
-import { useEffect, useState } from "react";
-import './Toggle.css'
+import { useState, useEffect } from "react";
+import './Toggle.css';
 
-function Toggle () {
-    const [darkmode, setDarkMode] = useState(false)
+function Toggle() {
+  const [darkmode, setDarkMode] = useState(false);
 
-    const toggleTheme = () => {
-        setDarkMode(prevMode => !prevMode);
-    };
+  const toggleTheme = () => {
+    setDarkMode(!darkmode);
+  };
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setDarkMode(prev => !prev);
-        }, 2000); 
+  useEffect(() => {
+    document.body.style.backgroundColor = darkmode ? "black" : "white";
+    document.body.style.color = darkmode ? "white" : "black";
+  }, [darkmode]);
 
-        return () => clearInterval(interval); 
-    }, []);
-
-
-    return (
-        <div className={darkMode ? 'app dark' : 'app light'}>
-            
-        <button onClick={toggleTheme}>
-            Switch to {darkmode? 'Light' : 'Dark'} Mode
-        </button>
-            <h1>Welcome to my page! </h1>
-        </div>
-    )
+  return (
+    <div className="toggle-container">
+      <div className={`toggle-switch ${darkmode ? 'dark' : 'light'}`} onClick={toggleTheme}>
+        <div className="toggle-slider"></div>
+      </div>
+      <h1>Welcome to this page!</h1>
+    </div>
+  );
 }
 
 export default Toggle;
