@@ -9,7 +9,9 @@ function Toggle () {
     };
 
     useEffect(()) => {
-        
+        const interval = setInterval(() => {
+            setDarkMode
+        })
     }
 
 
