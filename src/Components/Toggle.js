@@ -18,7 +18,8 @@ function Toggle() {
       <div className={`toggle-switch ${darkmode ? 'dark' : 'light'}`} onClick={toggleTheme}>
         <div className="toggle-slider"></div>
       </div>
-      <h1>Welcome to this page!</h1>
+      <h1>Welcome to this page! </h1>
+      <p>This toggle switch allows you to switch between </p>
     </div>
   );
 }
