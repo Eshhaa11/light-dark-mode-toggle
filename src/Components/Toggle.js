@@ -8,11 +8,13 @@ function Toggle () {
         setDarkMode(prevMode => !prevMode);
     };
 
-    useEffect(()) => {
+    useEffect(() => {
         const interval = setInterval(() => {
             setDarkMode(prev => !prev);
-        }, 1000)
-    }
+        }, 2000); 
+
+        return () => clearInterval(interval); 
+    }, []);
 
 
     return (
