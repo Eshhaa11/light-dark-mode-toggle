@@ -1,7 +1,5 @@
 .toggle-container {
     display: flex;
-    position: relative;
-    top: -100px;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -42,10 +40,12 @@
   }
 
   h1 {
+    position: relative;
     margin-top: 20px;
     font-size: 2rem;
   }
   
   p{
     font-size: 20px;
+    font-weight: bold;
   }
