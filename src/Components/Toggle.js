@@ -27,3 +27,5 @@ function Toggle () {
         </div>
     )
 }
+
+export default Toggle;
