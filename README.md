@@ -38,8 +38,8 @@ To see it in action, clone the repository and follow the setup instructions belo
 
 5. **Open your browser and visit: http://localhost:3000**
 
-## 🎨 Screenshots:
-
+ ## 🎨 Screenshots:
+ ![App Screenshot](src/assets/image.png)
 
 
 ## 🤝 Contributing
