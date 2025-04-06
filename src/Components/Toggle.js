@@ -19,7 +19,8 @@ function Toggle() {
         <div className="toggle-slider"></div>
       </div>
       <h1>Welcome to this page! </h1>
-      <p>This toggle switch allows you to switch between </p>
+      <p>This toggle switch allows you to switch between light and dark mode <br /> 
+      Try it out!!</p>
     </div>
   );
 }
