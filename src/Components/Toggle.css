@@ -1,0 +1,46 @@
+.toggle-container {
+    display: flex;
+    position: relative;
+    top: -100px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .toggle-switch {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+   
+  }
+  
+ 
+  .toggle-switch.dark {
+    background-color: #333;
+  }
+  
+
+  .toggle-slider {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease;
+  }
+  
+ 
+  .toggle-switch.dark .toggle-slider {
+    transform: translateX(30px);
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+  
