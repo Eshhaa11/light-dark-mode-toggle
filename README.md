@@ -37,3 +37,12 @@ To see it in action, clone the repository and follow the setup instructions belo
    npm start
 
 5. **Open your browser and visit: http://localhost:3000**
+
+## 🎨 Screenshots:
+
+
+
+## 🤝 Contributing
+Excited to improve this project? Fork the repository, create a feature branch, and open a pull request. Every contribution helps make it better! 🚀✨
+
+🎉 Happy Coding!
