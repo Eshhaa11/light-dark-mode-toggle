@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import './Toggle.css'
 
 function Toggle () {
@@ -7,6 +7,10 @@ function Toggle () {
     const toggleTheme = () => {
         setDarkMode(prevMode => !prevMode);
     };
+
+    useEffect(()) => {
+        
+    }
 
 
     return (
