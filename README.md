@@ -22,9 +22,14 @@ To see it in action, clone the repository and follow the setup instructions belo
 1. **Clone the repository:**
    
    ```bash
-   git clone https://github.com/your-username/light-dark-toggle.git
+   git clone https://github.com/Eshhaa11/light-dark-mode-toggle
 
 2. **Navigate to the project directory:**
 
-   cd light-dark-toggle
+   cd light-dark-mode-toggle
 
+3. **Install dependencies:**
+ 
+   npm install
+
+4. 
