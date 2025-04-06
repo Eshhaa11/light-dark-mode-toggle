@@ -23,7 +23,7 @@ function Toggle () {
         <button onClick={toggleTheme}>
             Switch to {darkmode? 'Light' : 'Dark'} Mode
         </button>
-            <h1>GOOGLE </h1>
+            <h1>Welcome to my page! </h1>
         </div>
     )
 }
