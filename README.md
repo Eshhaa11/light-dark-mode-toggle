@@ -32,4 +32,8 @@ To see it in action, clone the repository and follow the setup instructions belo
  
    npm install
 
-4. 
+4. **Start the development server:**
+
+   npm start
+
+5. **Open your browser and visit: http://localhost:3000**
