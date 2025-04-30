@@ -1,3 +1,5 @@
+![App Screenshot](src/assets/toggle.jpg)
+
 # 🌗 Light/Dark Mode Toggle with Sliding Switch (React)
 
 A simple React application that features a **light/dark mode toggle** with a **sliding switch** design. The app allows users to toggle between light and dark themes, with smooth transitions and a minimalist UI.
